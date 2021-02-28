@@ -1,0 +1,45 @@
+.d-flex input{
+    margin:.2em 0em ;
+}
+.d-flex button{
+    margin: .3em .6em;
+    padding: .3em .8em;
+}
+.container table{
+    margin: 1em 8em;
+}
+table .btnedit{
+    color: lightgreen;
+    cursor: pointer
+}
+table .btndelete{
+    color: lightcoral;
+    cursor: pointer
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+/*Messages*/
+.updatemsg,
+.deletemsg,
+.insertmsg {
+    position: absolute;
+    top: -40px;
+}
+
+.movedown {
+    animation: slideup 3.4s ease;
+}
+
+@keyframes slideup{
+    50%{
+        top: 0;
+    }
+    100%{
+        top: -40px;
+    }
+}
