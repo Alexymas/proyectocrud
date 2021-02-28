@@ -1,8 +1,4 @@
-import productDb, {
-    bulkcreate,
-    getData,
-    createElement
-} from './Module.js'
+import productDb, {bulkcreate, getData, createElement} from './Module.js'
 
 
 let db = productDb("Productdb", {
